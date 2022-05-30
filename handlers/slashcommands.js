@@ -10,7 +10,7 @@ module.exports = (bot, reload) => {
     let slashcommands = getFiles("./slashcommands/", ".js")
 
     if (slashcommands.length === 0)
-        console.log("No slash commands loaded")
+        console.log("No events to loaded")
 
     slashcommands.forEach((f, i) => {
         if (reload) delete require.cache[require.resolve(`../slashcommands/${f}`)]
