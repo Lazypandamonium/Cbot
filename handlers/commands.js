@@ -2,7 +2,7 @@ const { getFiles } = require("../util/functions")
 const fs = require("fs")
 
 module.exports = (bot, reload) => {
-    const {client} = bot
+    const {client} = bot 
 
     fs.readdirSync("./commands/").forEach((category) => {
         let commands = getFiles(`./commands/${category}`, ".js")
@@ -14,5 +14,5 @@ module.exports = (bot, reload) => {
             client.commands.set(command.name, command)
         })
     })
-    console.log(`loaded ${client.commands.size} commands`)
+    console.log(`Loaded ${client.commands.size} commands`)
 }
