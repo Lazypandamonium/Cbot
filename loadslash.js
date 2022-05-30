@@ -18,12 +18,14 @@ client.loadSlashCommands = (bot, reload) => require("./handlers/slashcommands")(
 client.loadSlashCommands(bot, false)
 
 client.on("ready", async () => {
+    console.log(`Loading ${client.slashcommands.size} slash commands`)
+
     const guild = client.guilds.cache.get(guildId)
     if (!guild)
-        return console.error("Target guild not found")
-    
+        console.error("Target Guild not found")
+
     await guild.commands.set([...client.slashcommands.values()])
-    console.log(`Successfully loaded in ${client.slashcommands.size}`)
+    console.log("Finished")
     process.exit(0)
 })
 
