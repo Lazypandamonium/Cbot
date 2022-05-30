@@ -33,7 +33,7 @@ client.on("ready", () => {
 })
 
 client.slashcommands = new Discord.Collection() 
-client.button = new Discord.Collection()
+client.buttons = new Discord.Collection()
 
 client.loadSlashCommands = (bot, reload) => require("./handlers/slashcommands")(bot, reload)
 client.loadSlashCommands = (bot, reload) => require("./handlers/buttons")(bot, reload)
