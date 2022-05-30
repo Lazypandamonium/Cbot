@@ -3,7 +3,7 @@ const { MessageActionRow, MessageButton, MessageEmbed } = require("discord.js")
 module.exports = {
     name: "rolesselector",
     category: "test",
-    devOnly: true,
+    devOnly: false,
     run: async ({client, message, args}) => {
         message.channel.send({
             embeds: [
