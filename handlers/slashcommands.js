@@ -12,7 +12,7 @@ module.exports = (bot, reload) => {
     if (slashcommands.length === 0)
         console.log("No slash commands loaded")
 
-    slashcommands.forEach(f => {
+    slashcommands.forEach((f, i) => {
         if (reload) delete require.cache[require.resolve(`../slashcommands/${f}`)]
         const slashcmd = require(`../slashcommands/${f}`)
         client.slashcommands.set(slashcmd.name, slashcmd)
