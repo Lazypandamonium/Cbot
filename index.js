@@ -36,9 +36,9 @@ client.slashcommands = new Discord.Collection()
 client.buttons = new Discord.Collection()
 
 client.loadSlashCommands = (bot, reload) => require("./handlers/slashcommands")(bot, reload)
-client.loadSlashCommands = (bot, reload) => require("./handlers/buttons")(bot, reload)
+client.loadButtons = (bot, reload) => require("./handlers/buttons")(bot, reload)
 client.loadSlashCommands(bot, false)
-client.loadbuttons(bot, false)
+client.loadButtons(bot, false)
 
 client.on("interactionCreate", (interaction) => {
     if (!interaction.isCommand()) return 
