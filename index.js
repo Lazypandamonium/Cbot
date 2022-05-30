@@ -60,7 +60,7 @@ client.on("messageCreate", (message) =>{
     message.reply("Welcome enjoy your stay!")
 })
 
-const welcomechannelId = "978688803663380512"
+const welcomeChannelId = "978688803663380512"
 
 client.on("guildMemberAdd", async (member) => {
     const img = await generateImage(member)
