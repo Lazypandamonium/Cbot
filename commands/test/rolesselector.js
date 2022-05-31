@@ -16,6 +16,7 @@ module.exports = {
                     new MessageButton().setCustomId("role-980526526888038410").setStyle("PRIMARY").setLabel("PURPLE"),
                     new MessageButton().setCustomId("role-980526476099223552").setStyle("PRIMARY").setLabel("GREEN"),
                     new MessageButton().setCustomId("role-980526421019611176").setStyle("PRIMARY").setLabel("RED"),
+                    new MessageButton().setCustomId("role-980524940480634901").setStyle("PRIMARY").setLabel("BLUE"),
                 ])
             ]
         })
