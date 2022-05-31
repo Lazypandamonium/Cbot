@@ -7,7 +7,7 @@ module.exports = {
     run: async ({client, message, args}) => {
         message.channel.send({
             embeds: [
-                new MessageEmbed().setTitle("Select Role").setDescription("Select roles from the buttons below").setColor("BLUE")
+                new MessageEmbed().setTitle("Select Role").setDescription("Select roles from the buttons below").setColor("PINK")
             ],
             components: [
                 new MessageActionRow().addComponents([
