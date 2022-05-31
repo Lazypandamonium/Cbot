@@ -11,12 +11,12 @@ module.exports = {
             ],
             components: [
                 new MessageActionRow().addComponents([
-                    new MessageButton().setCustomId("role-980526645272272986").setStyle("").setLabel("Black"),
-                    new MessageButton().setCustomId("role-980526606080704542").setStyle("").setLabel("White"),
-                    new MessageButton().setCustomId("role-980526551156285520").setStyle("").setLabel("Pink"),
-                    new MessageButton().setCustomId("role-980526526888038410").setStyle("").setLabel("Purple"),
-                    new MessageButton().setCustomId("role-980526476099223552").setStyle("").setLabel("Green"),
-                    new MessageButton().setCustomId("role-980524940480634901").setStyle("").setLabel("Blue"),
+                    new MessageButton().setCustomId("role-980526645272272986").setStyle("PRIMARY").setLabel("Black"),
+                    new MessageButton().setCustomId("role-980526606080704542").setStyle("PRIMARY").setLabel("White"),
+                    new MessageButton().setCustomId("role-980526551156285520").setStyle("PRIMARY").setLabel("Pink"),
+                    new MessageButton().setCustomId("role-980526526888038410").setStyle("PRIMARY").setLabel("Purple"),
+                    new MessageButton().setCustomId("role-980526476099223552").setStyle("PRIMARY").setLabel("Green"),
+                    new MessageButton().setCustomId("role-980524940480634901").setStyle("PRIMARY").setLabel("Blue"),
                 ])
             ]
         })
