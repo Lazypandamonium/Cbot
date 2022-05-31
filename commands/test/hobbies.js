@@ -11,7 +11,7 @@ module.exports = {
             ],
             components: [
                 new MessageActionRow().addComponents([
-                    new MessageButton().setCustomId("role-980529645864775750").setStyle("PRIMARY").setLabel("Athele"),
+                    new MessageButton().setCustomId("role-980529645864775750").setStyle("PRIMARY").setLabel("Athlete"),
                     new MessageButton().setCustomId("role-980529750470721596").setStyle("PRIMARY").setLabel("Gym Rat"),
                     new MessageButton().setCustomId("role-980529587421323294").setStyle("PRIMARY").setLabel("Reader"),
                     new MessageButton().setCustomId("role-980529485625585705").setStyle("PRIMARY").setLabel("Gamer"),
