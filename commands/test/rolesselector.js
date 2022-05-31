@@ -11,7 +11,7 @@ module.exports = {
             ],
             components: [
                 new MessageActionRow().addComponents([
-                    new MessageButton().setCustomId("role-980526645272272986").setStyle("PRIMARY").setLabel("Black"),                                    
+                    new MessageButton().setCustomId("role-980526645272272986").setStyle("PRIMARY").setLabel("BLACK"),                                    
                 ])
             ]
         })
