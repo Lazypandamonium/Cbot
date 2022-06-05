@@ -7,7 +7,7 @@ module.exports = {
     run: async ({client, message, args}) => {
         message.channel.send({
             embeds: [
-                new MessageEmbed().setTitle("Select Hobbie").setDescription("Select Hobbie from the buttons below").setColor("BLUE")
+                new MessageEmbed().setTitle("Select Gaming").setDescription("Select a game from the buttons below").setColor("BLUE")
             ],
             components: [
                 new MessageActionRow().addComponents([
