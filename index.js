@@ -39,8 +39,8 @@ client.on("ready", () => {
 })
 
 client.on("messageCreate", (message) =>{
-    if (message.content == "Rey")
-    message.reply("Is Daddy")
+    if (message.content == "Hi")
+    message.reply("Wassuh!!!!")
 })
 
 const welcomeChannelId = "978688803663380512"
