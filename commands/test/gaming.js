@@ -15,6 +15,7 @@ module.exports = {
                     new MessageButton().setCustomId("role-982855244729966642").setStyle("PRIMARY").setLabel("Cod"),
                     new MessageButton().setCustomId("role-982855305186656366").setStyle("PRIMARY").setLabel("R6"),
                     new MessageButton().setCustomId("role-982855372136120370").setStyle("PRIMARY").setLabel("Csgo"),
+                    new MessageButton().setCustomId("role-1031948963831631942").setStyle("PRIMARY").setLabel("OW2"),
                 ])
             ]
         })
