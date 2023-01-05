@@ -40,7 +40,7 @@ client.on("ready", () => {
 
 client.on("messageCreate", (message) =>{
     if (message.content == "Hi")
-    message.reply("Hi Welcome Bitch!!")
+    message.reply("Welcome Enjoy your Stay")
 })
 
 const welcomeChannelId = "978688803663380512"
